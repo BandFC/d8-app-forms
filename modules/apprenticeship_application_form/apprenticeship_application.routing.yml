@@ -1,0 +1,10 @@
+apprenticeship_application.application_form:
+  path: '/apprenticeship_application_form/{course_title}/{course_code}/{course_id}'
+  defaults:
+    _form: '\Drupal\apprenticeship_application\Form\ApprenticeshipApplicationForm'
+    _title: 'Apprenticeship Application Form'
+    course_title: '' 
+    course_code: ''
+    course_id: ''
+  requirements:
+    _role: 'anonymous+authenticated'

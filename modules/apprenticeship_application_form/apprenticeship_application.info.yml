@@ -1,0 +1,14 @@
+name: Apprenticeship Application Form
+description: 'Apprenticeship applcation form containing additional employer information'
+package: 'Application Forms'
+type: module
+dependencies: 
+  - basic_application
+core: 8.x
+version: 8.x-1.0-dev
+
+
+
+
+
+

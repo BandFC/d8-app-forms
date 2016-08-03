@@ -1,0 +1,6 @@
+name: Basic Application Form
+description: 'Provides base application form class for extending, no functionality on its own please enable on of the submodules'
+package: 'Application Forms'
+type: module
+core: 8.x
+version: 8.x-1.0-dev
